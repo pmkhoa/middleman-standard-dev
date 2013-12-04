@@ -1,0 +1,54 @@
+.triangle-up,
+.triangle-right,
+.triangle-down,
+.triangle-left {
+  /*
+   * In Internet Explorer, The"border-style: dashed" will never be
+   * rendered unless "(width * 5) >= border-width" is true.
+   * Since "width" is set to "0", the "dashed-border" remains
+   * invisible to the user, which renders the border just like how
+   * "border-color: transparent" renders.
+   */
+  border-style: dashed;
+  border-color: transparent;
+  border-width: 6px;
+  display: -moz-inline-box;
+  display: inline-block;
+  /* Use font-size to control the size of the triangle. */
+  font-size: 100px;
+  height: 0;
+  line-height: 0;
+  position: relative;
+  vertical-align: middle;
+  width: 0;
+
+}
+
+.triangle-up {
+  border-bottom-width: 8px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(0,0,0,0.8);
+  bottom: 0;
+}
+
+.triangle-right {
+  border-left-width: 8px;
+  border-left-style: solid;
+  border-left-color: rgba(0,0,0,0.8);
+  left: 0;
+}
+
+.triangle-down {
+
+  border-top-width: 8px;
+  border-top-style: solid;
+  border-top-color: rgba(0,0,0,0.8);
+  //top: 0;
+}
+
+.triangle-left {
+  border-right-width: 8px;
+  border-right-style: solid;
+  border-right-color: rgba(0,0,0,0.8);
+  right: 0;
+}

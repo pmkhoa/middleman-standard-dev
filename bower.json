@@ -1,0 +1,21 @@
+{
+  "name": "Lookvook-Player",
+  "version": "0.0.1",
+  "authors": [
+    "Khoa Pham <khoa.pham@me.com>"
+  ],
+  "description": "LookVook Player Built With http://mediaelementjs.com/",
+  "keywords": [
+    "LookVook",
+    "Player"
+  ],
+  "license": "MIT",
+  "homepage": "http://lookvook.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
