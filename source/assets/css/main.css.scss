@@ -6,12 +6,12 @@
 @import "partials/mixins";
 @import "partials/variables";
 @import "partials/typography";
-@import "partials/global";
 @import "partials/buttons";
+@import "partials/global";
 @import "partials/base";
 
 @media only screen and (min-width: 481up) {
-  @import "partials/600up";
+  @import "partials/481up";
 }
 
 @media only screen and (min-width: 768px) {
@@ -27,5 +27,5 @@
   @import "partials/1220up";
 }
 
-@import "helpers";
-@import "print";
+@import "partials/helpers";
+@import "partials/print";

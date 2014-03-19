@@ -1,11 +1,14 @@
 // Structure
 $pageWidth: 1220px;
 
-// Text Selection
-$selectionColor: orange;
+$lightGray: #f6f7f8;
+$black: #292929;
+$lightBlue: #509faf;
+$darkBlue: #185367;
+$yellow: #ffd400;
 
-// Links
-$linkColor: #c21920;
-$linkHoverColor: darken(#c21920, 3%);
-$gray: #58504c;
-$buttonColor: #a04835;
+// Text Selection
+$selectionColor: $yellow;
+
+$linkColor: $yellow;
+$linkHoverColor: darken($yellow, 3%);
