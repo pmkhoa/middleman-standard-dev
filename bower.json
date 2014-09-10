@@ -1,16 +1,11 @@
 {
-  "name": "Lookvook-Player",
-  "version": "0.0.1",
+  "name": "Middleman Standard",
+  "version": "1.0.0",
   "authors": [
     "Khoa Pham <khoa.pham@me.com>"
   ],
-  "description": "LookVook Player Built With http://mediaelementjs.com/",
-  "keywords": [
-    "LookVook",
-    "Player"
-  ],
   "license": "MIT",
-  "homepage": "http://lookvook.com",
+  "homepage": "http://khoapham.me",
   "ignore": [
     "**/.*",
     "node_modules",
